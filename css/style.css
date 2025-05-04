@@ -1,0 +1,88 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+  }
+  
+  section {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .dashboard-cards {
+    background-color: #d8d8d8;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    color: #488399;
+    margin-bottom: 20px;
+  }
+
+  h3{
+    color: #ea9393;
+  }
+
+  label {
+    color: #f1bebe;
+  }
+  
+  form input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #f4d38a;
+    color: #488399;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #f4d38a;
+    opacity: 70%;
+  }
+  
+  .card-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    padding-top: 6px;
+    margin-top: 20px;
+    flex: 1;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+  }
+  
+  .graficos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+  }
+  
+  #grafico-pizza,
+  #grafico-barras {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1 1 40%;
+  }
